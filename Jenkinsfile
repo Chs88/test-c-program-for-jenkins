@@ -13,7 +13,7 @@ pipeline {
         }
 
 
-        steps("Build") {
+        stage("Build") {
 
             steps {
                 sh "gcc mt-example-0.c -lpthread"
